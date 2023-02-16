@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/main.ts',
   output: {
     filename: 'app.min.js',
-    path: path.join(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   resolve: {
     extensions: ['.ts', '.js'],
